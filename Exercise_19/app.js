@@ -43,11 +43,5 @@ names.forEach((name) => {
   );
 });
 
-while (names.length > 0) {
-  names.pop();
-}
-
-console.log(names);
-
 const count = names.length;
 console.log(`There are ${count} people invited to the dinner party.`);

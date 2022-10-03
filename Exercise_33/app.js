@@ -10,17 +10,7 @@ for (let i = 0; i < numbers.length; i++) {
     console.log(`${numbers[i]}nd`);
   } else if (numbers[i] === 3) {
     console.log(`${numbers[i]}rd`);
-  } else if (numbers[i] === 4) {
-    console.log(`${numbers[i]}th`);
-  } else if (numbers[i] === 5) {
-    console.log(`${numbers[i]}th`);
-  } else if (numbers[i] === 6) {
-    console.log(`${numbers[i]}th`);
-  } else if (numbers[i] === 7) {
-    console.log(`${numbers[i]}th`);
-  } else if (numbers[i] === 8) {
-    console.log(`${numbers[i]}th`);
-  } else if (numbers[i] === 9) {
+  } else if (numbers[i] <= 9) {
     console.log(`${numbers[i]}th`);
   } else {
     console.log("Invalid number");
